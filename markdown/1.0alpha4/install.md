@@ -45,7 +45,9 @@ First, boot a Linux distribution from a device/partition other than the one on
 which you wish to install Bedrock Linux. This will be called the "installer
 host." The installer host can be a LiveCD or LiveUSB Linux distribution (such
 as Knoppix or an Ubuntu installer), or simply a normal Linux distribution on
-another device or another partition on the same device.
+another device or another partition on the same device. However, when using a
+live environment, make sure your machine has at least 2GB of RAM, as the live
+environment must be able to compile the kernel.
 
 Most major Linux distributions will work for installer host, provided they
 support compiling tools such as `make`.  Distributions with ready access to
